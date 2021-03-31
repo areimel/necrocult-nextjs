@@ -7,7 +7,8 @@ import Sandbox from '@components/Template/Sandbox/Sandbox'
 import ComponentMeta from '@components/Template/ComponentMeta/ComponentMeta'
 import Footer from '@components/Template/Footer/Footer'
 
-
+import BlogListing from '@components/BlogListing/BlogListing'
+import CustomHR from '@components/Typography/CustomHR/CustomHR'
 
 //VARS
 export async function getStaticProps() {
@@ -16,17 +17,26 @@ export async function getStaticProps() {
 	  let title = "Initial Component Demo"
 	  let author = "Alec Reimel"
 	  let authorTeam = "Planet Caravan Studios"
-	  let description ="\
-	  						This is the inital demo template for Holy Mountain frontend components.  \
-	  						Clone this page out for demoing new components.\
+	  let description ="\This is the standard BlogListing component\
+	  						Also included in this demo is the CustomHR component, \
+	  						which would normally be used with the BlogListing component.\
 	  					"
-	  let contentProps = 'N/A'
+	  let contentProps = '{__html: \
+	  		<ul>\
+	  			<li>title</li>\
+	  			<li>author</li>\
+	  			<li>authorTeam</li>\
+	  			<li>description</li>\
+	  			<li>contentProps</li>\
+	  			<li>libraries</li>\
+	  		</ul>\
+	  	}'
 	  let libraries = "N/A"
 	  
 	  let footerMessage = "Created by Planet Caravan Studios"
   
   //Component Content
-  	
+  	let postDataUrl = "test.com"
 
     return {
       props: {
@@ -63,7 +73,24 @@ export default function Home(props) {
         
         <Sandbox>
 
-        	Components go here
+        	<BlogListing
+        		postUrl = "#test"
+        		postImage = "/img/morbid.jpg"
+        		postAlbumCredit = "Morbid - Year of The Goat"
+        		postColumn = "Tales From The Basement"
+        		postHeadline = "Tales From The Basement: Morbid"
+        		postSnippet = "It has only been a few hours since I've translated and spoke aloud the first of the demon resurrection passages from the Book of the Dead"
+        	/>
+        	<CustomHR/>
+        	<BlogListing
+        		postUrl = "#test"
+        		postImage = "/img/morbid.jpg"
+        		postAlbumCredit = "Morbid - Year of The Goat"
+        		postColumn = "Tales From The Basement"
+        		postHeadline = "Morbid: Year of The Goat"
+        		postSnippet = "It has only been a few hours since I've translated and spoke aloud the first of the demon resurrection passages from the Book of the Dead"
+        		reverse
+        	/>
 
         </Sandbox>
         

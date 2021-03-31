@@ -7,13 +7,14 @@ import Sandbox from '@components/Template/Sandbox/Sandbox'
 import ComponentMeta from '@components/Template/ComponentMeta/ComponentMeta'
 import Footer from '@components/Template/Footer/Footer'
 
+import DesktopNav from '@components/Navigation/DesktopNav/DesktopNav'
 
 
 //VARS
 export async function getStaticProps() {
   
   //General Page VARS
-	  let title = "Initial Component Demo"
+	  let title = "DesktopNav"
 	  let author = "Alec Reimel"
 	  let authorTeam = "Planet Caravan Studios"
 	  let description ="\
@@ -21,7 +22,7 @@ export async function getStaticProps() {
 	  						Clone this page out for demoing new components.\
 	  					"
 	  let contentProps = 'N/A'
-	  let libraries = "N/A"
+	  let libraries = "Headroom.JS"
 	  
 	  let footerMessage = "Created by Planet Caravan Studios"
   
@@ -63,7 +64,7 @@ export default function Home(props) {
         
         <Sandbox>
 
-        	Components go here
+        	<DesktopNav/>
 
         </Sandbox>
         

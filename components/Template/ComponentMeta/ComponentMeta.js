@@ -42,8 +42,8 @@ export default function ComponentMeta({
 			<ul className={styles.inner}>
 				<li className={styles.props}>
 					<span>Available Props:</span> 
-					{contentProps}
 				</li>
+				{contentProps}
 			</ul>
 		</div>
 	
@@ -51,8 +51,8 @@ export default function ComponentMeta({
 			<ul className={styles.inner}>
 				<li className={styles.libraries}>
 					<span>Libraries Used:</span> 
-					{libraries}
 				</li>
+				{libraries}
 			</ul>
 		</div>
 	</div>

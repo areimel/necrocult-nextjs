@@ -137,11 +137,13 @@ $fixedWidth: 400px;
 			background-color: $white;
 			padding-left:35px;
 			transform: rotate(1deg);
+			widows: 3;
 
 		    	 p{
 				margin-bottom: 25px;
 				transform: rotate(-2deg);
 				text-align: justify;
+				widows:inherit;
 
 				&:first-letter{
 					font-family: $font_display;
