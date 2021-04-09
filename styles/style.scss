@@ -74,6 +74,13 @@ GENERAL
 		ul.nolist>li{
 			padding:  0 10px;
 		}
+		ul.nolist.vertical{
+			list-style: none;
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			flex-direction: column;
+		}
 
 
 	/***** Links global *****/

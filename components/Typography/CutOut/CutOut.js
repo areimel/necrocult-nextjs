@@ -7,9 +7,11 @@ export default function CutOut({
   children,
 }) {
   return (
-  	<span className={styles.CutOut}>
-  		{children}
-  	</span>
+  	<div className={styles.CutOut}>
+  		<p className={styles.inner}>
+  			{children}
+  		</p>
+  	</div>
   	
   )
 }

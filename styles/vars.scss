@@ -1,6 +1,11 @@
-/***** ========= *****/
-/***** Standard  *****/
-/***** ========= *****/
+/**************************************************
+VARS File
+
+Description:	Store SCSS vars here
+
+
+**************************************************/
+
 
 /***** Color Variables *****/
 	$black: 		#212121;
@@ -10,7 +15,7 @@
 
 	$red: 			#fb0000;
 	
-	$nasa_grey:			#D1D3D4;
+	$nasa_grey:	#D1D3D4;
 
 	/***** Named Colors *****/
 		$primary_color:		$black;
@@ -27,11 +32,14 @@
 	$font_alt:			"ImpactLabel";
 
 /***** Font Sizes *****/
-	$font_size_heading:	50px;
+	$font_size_heading:	65px;
 	$font_size_subhead:	36px;
 	$font_size_body:		20px;
 	$font_size_detail:	16px;
 
+/***** Letter Spacing *****/
+	$letterSpacingWide:		0.035em;
+	$letterSpacingNormal:	0.035em;
 
 /***** Content Widths *****/
 	$content_width_s: 	650px;

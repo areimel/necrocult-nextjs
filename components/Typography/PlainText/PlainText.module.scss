@@ -6,15 +6,15 @@
 Necro Cult Zine Component
 
 
-Component Name: 	Typography
-Description:		Barbed wire graphic
+Component Name: 	PlainText
+Description:		Regular ordinary text component
 
 
 **************************************************/
 
-.CustomHR{
-	width: 100%;
-	max-width: 800px;
-	margin: 20px auto;
-	padding: 0px 35px
+.PlainText{
+	//@include maxWidth(800px);
+	font-family: $font_body;
+	color: $text_color;
 }
+

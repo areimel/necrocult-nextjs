@@ -7,7 +7,7 @@ Necro Cult Zine Component
 
 
 Component Name: 	Typography
-Descriptionm:		Typography samples for Necro Cult Zine
+Description:		Typography samples for Necro Cult Zine
 
 
 **************************************************/
@@ -15,18 +15,27 @@ Descriptionm:		Typography samples for Necro Cult Zine
 .CutOut{
 	background-color: $white;
 	color: $black;
-	display: inline;
-	letter-spacing: 1px;
+	display: inline-block;
 	line-height: 1.45;
-	padding: 3px 0;
-	box-shadow: 
-		10px 0 0 $white, 
-		-10px 0 0 $white;
+	padding: 25px 35px;
+	
 	position: relative;
-	left: 10px;
+
+	$outerRotate: -2deg;
+	$innerRotate: 2deg;
+
+	transform: rotate($outerRotate);
+
+	.inner{
+		display: inline-block;
+		transform: rotate($innerRotate);
+	}
+
+	@include maxWidth(800px);
+
 }
 
-.cut_out_alt{
+/*.cut_out_alt{
 	background-color: $black;
 	color: $white;
 	font-family: $font_display;
@@ -38,4 +47,4 @@ Descriptionm:		Typography samples for Necro Cult Zine
 	line-height: 1;
 	position: relative;
 	top: 2px;
-}
+}*/

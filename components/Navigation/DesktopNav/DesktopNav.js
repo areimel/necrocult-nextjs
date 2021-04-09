@@ -18,7 +18,7 @@ export default function DesktopNav({
 
 			<div className={styles.logoSection}>
 				<a href="/" className={styles.logoMain}>
-					<img src="/img/necro-cult-logo-trans.png" alt="Necro Cult Zine logo"/>
+					<img src="/img/logo.png" alt="Necro Cult Zine logo"/>
 				</a>
 			</div>
 
