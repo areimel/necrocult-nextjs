@@ -7,8 +7,9 @@ import Sandbox from '@components/Template/Sandbox/Sandbox'
 import ComponentMeta from '@components/Template/ComponentMeta/ComponentMeta'
 import Footer from '@components/Template/Footer/Footer'
 
-import Button1 from '@components/Typography/Button1/Button1'
+import TestSquare from '@components/Template/TestSquare/TestSquare'
 
+import Texture from '@components/Textures/Texture/Texture'
 
 
 //VARS
@@ -22,8 +23,8 @@ export async function getStaticProps() {
 		This is the inital demo template for Holy Mountain frontend components.  \
 		Clone this page out for demoing new components.\
 	  					"
-	  let contentProps = 'N/A'
-	  let libraries = "N/A"
+	  let contentProps = 'option, opacity'
+	  let libraries = "Styled Components"
 	  
 	  let footerMessage = "Created by Planet Caravan Studios"
   
@@ -67,7 +68,37 @@ export default function Home(props) {
 
         	{/*Components go here*/}
 
-        	<Button1 href="/#test" newTab>Read More</Button1>
+        	<TestSquare>
+        		<Texture/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<Texture option="2"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<Texture option="3"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<Texture option="4"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<Texture option="5"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<Texture option="6"/>
+        	</TestSquare>        	
+
+        	<TestSquare>
+        		<Texture option="7"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<Texture option="8"/>
+        	</TestSquare> 
 
         </Sandbox>
         
