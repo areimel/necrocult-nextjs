@@ -25,7 +25,7 @@ export default function DesktopNav({
 			</div>
 
 			<div className={styles.linkSection}>
-				<div className={styles.navButton}>
+				<div id="DesktopNavButton" className={styles.navButton}>
 					<i className="fas fa-bars"></i>
 				</div>
 			</div>
