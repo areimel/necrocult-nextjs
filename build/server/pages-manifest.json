@@ -1,0 +1,20 @@
+{
+  "/ArticleHero": "pages/ArticleHero.js",
+  "/BasicForm": "pages/BasicForm.js",
+  "/BlogListing": "pages/BlogListing.js",
+  "/Buttons": "pages/Buttons.js",
+  "/CellGrid": "pages/CellGrid.js",
+  "/CutOut": "pages/CutOut.js",
+  "/DesktopNav": "pages/DesktopNav.js",
+  "/FilmGrainFilter": "pages/FilmGrainFilter.js",
+  "/FixedSplit": "pages/FixedSplit.js",
+  "/Headline": "pages/Headline.js",
+  "/NavMenu": "pages/NavMenu.js",
+  "/Texture": "pages/Texture.js",
+  "/Typography": "pages/Typography.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
