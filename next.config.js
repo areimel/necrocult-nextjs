@@ -1,5 +1,5 @@
 module.exports = {
-   distDir: 'build',	//Manual build folder
+   //distDir: 'build',	//Manual build folder
   serverRuntimeConfig: {
     // Will only be available on the server side
     //mySecret: 'secret',
