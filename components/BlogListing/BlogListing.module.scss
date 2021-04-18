@@ -46,9 +46,12 @@ $fixedWidth: 400px;
 		.imageCredit{
 			display: block;
 			margin-top: 5px;
-			font-size: $font_size_detail;
+			padding: 5px;
+			font-size: $font_size_body;
 			//font-style: italic;
 			align-self: flex-start;
+			background-color: $black;
+			color: $white;
 		}
 
 		&:hover{
@@ -68,7 +71,7 @@ $fixedWidth: 400px;
 		position: relative;
 		z-index: 12;
 		box-sizing: border-box;
-		padding-left:50px;
+		padding-left: 50px;
 
 		.copy .inner{
 			max-width: 600px;
@@ -97,7 +100,7 @@ $fixedWidth: 400px;
 
 				box-shadow: 3px 3px 3px rgba(0,0,0,0.25);
 				
-				padding-right: 120px;
+				padding-right: 80px;
 				top: 10px;
 				left: -15px;
 				position: relative;
@@ -118,11 +121,14 @@ $fixedWidth: 400px;
 				font-family: $font_alt;
 				font-size: calc( #{$font_size_body} + 5px);
 				letter-spacing:0.001em;
+				background-color: $black;
+				color: $white;
 				display: inline-block;
 				text-align: center;
+				padding: 5px 15px;
 				position: absolute;
-				top: 25px;
-				right: -55px;
+				top: 15px;
+				right: -85px;
 				transform: rotate(20deg);
 			}			  
 		}

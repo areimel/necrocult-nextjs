@@ -36,12 +36,14 @@ const Overlay = styled.div`
 
 export default function Texture({ 
   //page vars
-  option
+  option,
+  opacity
 }) {
   return (
   	<Overlay 
   		className={styles.Texture} 
-  		data-option={option}>
+  		data-option={option}
+  		opacity={opacity}>
   	</Overlay>
   )
 }

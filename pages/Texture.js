@@ -6,24 +6,24 @@ import Container from '@components/Template/Container/Container'
 import Sandbox from '@components/Template/Sandbox/Sandbox'
 import ComponentMeta from '@components/Template/ComponentMeta/ComponentMeta'
 import Footer from '@components/Template/Footer/Footer'
+
 import TestSquare from '@components/Template/TestSquare/TestSquare'
 
-import DefaultSlider from '@components/Sliders/DefaultSlider/DefaultSlider'
+import Texture from '@components/Textures/Texture/Texture'
 
 
 //VARS
 export async function getStaticProps() {
   
   //General Page VARS
-	  let title = "Initial Component Demo"
+	  let title = "Texture"
 	  let author = "Alec Reimel"
 	  let authorTeam = "Planet Caravan Studios"
 	  let description ="\
-		This is the inital demo template for Holy Mountain frontend components.  \
-		Clone this page out for demoing new components.\
+		Paper texture overlays with tiled images.\
 	  					"
-	  let contentProps = 'none'
-	  let libraries = "none"
+	  let contentProps = 'option, opacity'
+	  let libraries = "Styled Components"
 	  
 	  let footerMessage = "Created by Planet Caravan Studios"
   
@@ -67,7 +67,45 @@ export default function Home(props) {
 
         	{/*Components go here*/}
 
-        	<DefaultSlider/>
+        	<TestSquare>
+        		<p>option 1</p>
+        		<Texture/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<p>option 2</p>
+        		<Texture option="2"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<p>option 3</p>
+        		<Texture option="3"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<p>option 4</p>
+        		<Texture option="4"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<p>option 5</p>
+        		<Texture option="5"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<p>option 6</p>
+        		<Texture option="6"/>
+        	</TestSquare>        	
+
+        	<TestSquare>
+        		<p>option 7</p>
+        		<Texture option="7"/>
+        	</TestSquare>
+
+        	<TestSquare>
+        		<p>option 8</p>
+        		<Texture option="8"/>
+        	</TestSquare> 
 
         </Sandbox>
         

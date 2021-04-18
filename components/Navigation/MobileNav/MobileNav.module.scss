@@ -7,8 +7,7 @@ Holy Mountain Framework Component
 
 
 Component Name: 	DesktopNav
-Description:		Nav bar for desktop.  Supports both links and 
-					button-only for the links/content area.
+Description:		Nav bar for desktop.  Supports both links and button-only
 
 
 **************************************************/
@@ -18,7 +17,7 @@ Description:		Nav bar for desktop.  Supports both links and
 	background-color:$black;
 	border-bottom: solid 2px $white;
 	width: 100%;
-	$fixedWidth: 150px;
+	$fixedWidth: 120px;
 	.mainNav{
 		justify-content: space-between;
 	}
@@ -30,7 +29,7 @@ Description:		Nav bar for desktop.  Supports both links and
 		.logoMain{
 			width: 100%;
 			display: inline-block;
-			padding: 10px 5px 5px;
+			padding: 15px;
 		}
 	}
 	
@@ -56,16 +55,4 @@ Description:		Nav bar for desktop.  Supports both links and
 		}
 	}
 	
-}
-
-
-.headroom {
-    will-change: transform;
-    transition: transform 200ms linear;
-}
-.headroom--pinned {
-    transform: translateY(0%);
-}
-.headroom--unpinned {
-    transform: translateY(-100%);
 }

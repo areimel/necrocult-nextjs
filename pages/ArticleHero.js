@@ -6,9 +6,10 @@ import Container from '@components/Template/Container/Container'
 import Sandbox from '@components/Template/Sandbox/Sandbox'
 import ComponentMeta from '@components/Template/ComponentMeta/ComponentMeta'
 import Footer from '@components/Template/Footer/Footer'
+
 import TestSquare from '@components/Template/TestSquare/TestSquare'
 
-import DefaultSlider from '@components/Sliders/DefaultSlider/DefaultSlider'
+import ArticleHero from '@components/ArticleHero/ArticleHero'
 
 
 //VARS
@@ -67,7 +68,12 @@ export default function Home(props) {
 
         	{/*Components go here*/}
 
-        	<DefaultSlider/>
+        	<ArticleHero
+        		image="/img/evil-dead-1.jpg"
+        		columnName="Tales From The Basement"
+        		title="Blasphemy"
+        		imageCredit="Evil Dead, 1981"
+        	/>
 
         </Sandbox>
         

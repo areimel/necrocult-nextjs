@@ -1,19 +1,17 @@
-import styles from './DesktopNav.module.scss'
+import styles from './MobileNav.module.scss'
 import styled from "styled-components";
 import Container from '@components/Layout/Container/Container'
 
 
 
-export default function DesktopNav({ 
+export default function MobileNav({ 
   //props
 }) {
   return (
-  	<nav id="DesktopNav" className={styles.DesktopNav + " headroom"} >
+  	<nav id="MobileNav" className={styles.MobileNav} >
   		
   		<Container flex className={styles.upperNav}>
-  			<div>
-  				
-  			</div>
+  			
   		</Container>	  
 
 		<Container flex className={styles.mainNav}>

@@ -13,26 +13,12 @@ Description:		Typography samples for Necro Cult Zine
 **************************************************/
 
 .CutOut{
-	background-color: $white;
+	//background-color: $white;
 	color: $black;
-	display: inline-block;
+	display: inline;
 	line-height: 1.45;
-	padding: 25px 35px;
-	
-	position: relative;
-
-	$outerRotate: -2deg;
-	$innerRotate: 2deg;
-
-	transform: rotate($outerRotate);
-
-	.inner{
-		display: inline-block;
-		transform: rotate($innerRotate);
-	}
-
-	@include maxWidth(800px);
-
+	background: $white;
+	box-shadow: -1em 0 0 $white; 
 }
 
 /*.cut_out_alt{

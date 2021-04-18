@@ -28,6 +28,11 @@ Description:		Slide-in nav menu
 	$reservedBottom: 100px;
 	padding-bottom: $reservedBottom;
 
+	.inner{
+		height: 100%;
+		overflow-y: auto;
+	}
+
 	.buttonSection{
 		position: relative;
 		width: 100%;

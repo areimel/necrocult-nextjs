@@ -44,6 +44,8 @@ FONTS
 	}
 
 	/***** Old English *****/
+	/*NOTE: AncientMedium is naturally smaller than other fonts
+	Use larger font sizes to compensate*/
 		@font-face {
 		  font-family: 'AncientMedium';
 		  src: url('/fonts/AncientMedium.ttf') format('truetype');
@@ -59,7 +61,7 @@ FONTS
 	/***** Labelmaker *****/
 		@font-face {
 		  font-family: 'ImpactLabel';
-		  src: url('/fonts/ImpactLabel.ttf') format('truetype');
+		  src: url('/fonts/ImpactLabelReversed.ttf') format('truetype');
 		  font-weight: normal;
 		  font-style: normal;
 		}
