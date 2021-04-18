@@ -63,7 +63,9 @@ export default function Home(props) {
         </Container>
         
         <Sandbox>
-        	This component should be a top-level element.
+        	This component should be a top-level element. 
+        	<br/><br/>
+        	It should sit outside of any primary content.
         </Sandbox>
         
       </main>

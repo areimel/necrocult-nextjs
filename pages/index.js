@@ -65,9 +65,7 @@ export default function Home(props) {
         
         <Sandbox>
 
-        	{/*Components go here*/}
-
-        	<DefaultSlider/>
+        	Components go here
 
         </Sandbox>
         
