@@ -16,11 +16,15 @@ export default function Layout({
 		<MasterCSS/>
 		<div className={styles.OuterLayout}>
   			<NavMenu/>
-  			<div className={styles.InnerLayout}></div>
-  			<DesktopNav/>
-  			<MobileNav/>
-			{children}
-			<Footer/>
+  			<div className={styles.InnerLayout}>
+  				<DesktopNav/>
+	  			<MobileNav/>
+				{children}
+				<Footer/>
+
+				<div></div>
+
+  			</div>
 		</div>
 		<MasterJS/>
 	</>
