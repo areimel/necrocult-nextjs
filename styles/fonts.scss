@@ -71,9 +71,10 @@ FONTS
 			line-height:1;
 			letter-spacing:0.001em;
 			display: inline-block;
-
-			background-color: $white;
-			&:before{
+			color: $white;
+			background-color: $black;	
+			
+			/*&:before{
 				content:'\00a0';
 				position: relative;
 				right: -1px;
@@ -82,7 +83,7 @@ FONTS
 				content:'\00a0';
 				position: relative;
 				left: -1px;
-			}
+			}*/
 		}
 
 	/***** Typewriter *****/

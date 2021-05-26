@@ -53,6 +53,11 @@ Description:	Store SCSS vars here
 	$transition_slow:		0.5s ease-in-out;
 
 
+/***** Z-Index Ranges *****/
+	$z_index_base: 	0;
+	$z_index_medium: 	100;
+	$z_index_high: 	1000;
+
 /***** Shadows *****/
 
 	/* source: https://brumm.af/shadows */

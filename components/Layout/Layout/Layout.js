@@ -1,4 +1,5 @@
 import styles from './Layout.module.scss'
+import Head from 'next/head'
 import MasterJS from '@components/Layout/MasterJS/MasterJS'
 import MasterCSS from '@components/Layout/MasterCSS/MasterCSS'
 import DesktopNav from '@components/Navigation/DesktopNav/DesktopNav'
@@ -14,7 +15,10 @@ export default function Layout({
 }) {
   return (
 	<>
-		<MasterCSS/>
+		<Head>
+			<MasterCSS/>
+		</Head>
+		
 		<FilmGrainOverlay/>
 		<div className={styles.OuterLayout}>
   			<NavMenu/>
@@ -23,7 +27,6 @@ export default function Layout({
 	  			<MobileNav/>
 				{children}
 				<Footer/>
-
   			</div>
 		</div>
 		<MasterJS/>
