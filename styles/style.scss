@@ -73,6 +73,11 @@ GENERAL
 			margin-bottom: 1em;
 		}
 
+	/***** List Margin Fix *****/
+		ul.listFix{
+			padding-left: 2.5ch;
+			list-style: disc;;
+		}
 
 	/***** NoList *****/
 		ul.nolist{

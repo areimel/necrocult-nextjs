@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export -o ./dist",
-    "build-full": "next build && next export",
+    "build-static": "next build && next export",
     "init-setup": "npm install && npm audit fix"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "prefixfree": "^1.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "sass": "^1.35.1",
     "styled-components": "^5.2.1",
     "swiper": "^6.5.0"
   },

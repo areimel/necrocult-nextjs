@@ -13,23 +13,34 @@ Description:
 **************************************************/
 
 .Button1{
+	position: relative;
+	display: inline-block;
+	@include paperTexture;
 	background-color: $black;
 	padding: 0.45em 0.85em;
 	font-family: $font_display;
 	font-size: $font_size_subhead;
 	color: $white;
-	transform: rotate(1deg);
+	//transform: rotate(1deg);
 
 	transition: $transition_medium;
 	transition-delay: -0.075s;
 	will-change: text-shadow;
 	@include solidShadowHover;
 
-	position: relative;
-	@include paperTexture;
-
 	span{
 		display: inline-block;
-		transform: rotate(-2deg);
+		//transform: rotate(-2deg);
+	}
+
+	&.skew{ 
+
+	}
+	&.skewVar1{
+		transform: rotate(-1deg);
+
+		span{
+			transform: rotate(2deg);
+		}
 	}
 }

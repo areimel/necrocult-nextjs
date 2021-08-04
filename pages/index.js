@@ -19,12 +19,12 @@ export async function getStaticProps() {
 	  let title = "Initial Component Demo"
 	  let author = "Alec Reimel"
 	  let authorTeam = "Planet Caravan Studios"
-	  let description ="\
+	  let description ='\
 		This is the inital demo template for Necro Cult Zine frontend components.  \
 		Clone this page out for demoing new components.\
-	  					"
-	  let contentProps = 'none'
-	  let libraries = "none"
+	  					'
+	  let contentProps = '<ul class="listFix"><li>modal</li><li>dataYoutubeId</li></ul>'
+	  let libraries = '<ul class="listFix"><li>Styled Components</li></ul>'
 	  
 	  let footerMessage = "Created by Planet Caravan Studios"
 
@@ -81,13 +81,16 @@ return (
 					<Button1
 						className="modal_open"
 						modal="DefaultModal"
+						skew="skew4"
 					>Default Modal</Button1>
+
 					<br/><br/><br/>
 					
 					<Button1
 						className="video_modal_open"
 						modal="VideoModal"
 						dataYoutubeId="ubBPXQ5U2_0"
+						skew="skew1" /*default*/
 					>Video Modal</Button1>
 				</div>
 

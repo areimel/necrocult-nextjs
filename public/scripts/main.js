@@ -59,8 +59,7 @@ $(document).ready(function(){
 
 		//only affects video modals
 		setTimeout(
-			function() 
-			{
+			function(){
 				$('.modal.video iframe').attr('src', '');
 			}, 500);
 	});
@@ -70,8 +69,7 @@ $(document).ready(function(){
 		$('.modal_overlay').removeClass('active');
 		$('.modal').removeClass('active');
 		setTimeout(
-			function() 
-			{
+			function(){
 				$('.modal.video iframe').attr('src', '');
 			}, 500);
 	});
@@ -81,8 +79,7 @@ $(document).ready(function(){
 		$('.modal_overlay').removeClass('active');
 		$('.modal').removeClass('active');
 		setTimeout(
-			function() 
-			{
+			function(){
 				$('.modal.video iframe').attr('src', '');
 			}, 500);
 	});
@@ -96,8 +93,7 @@ $(document).ready(function(){
 	  	$('.modal_overlay').removeClass('active');
 	  	$('.modal').removeClass('active');
 	  	setTimeout(
-	  		function() 
-	  		{
+	  		function(){
 	  			$('.modal.video iframe').attr('src', '');
 	  		}, 500);
 	  }

@@ -43,7 +43,8 @@ export default function ComponentMeta({
 				<li className={styles.props}>
 					<span>Available Props:</span> 
 				</li>
-				{contentProps}
+				{/*{contentProps}*/}
+				<div dangerouslySetInnerHTML={{__html: contentProps}}></div>
 			</ul>
 		</div>
 	
@@ -52,7 +53,8 @@ export default function ComponentMeta({
 				<li className={styles.libraries}>
 					<span>Libraries Used:</span> 
 				</li>
-				{libraries}
+				{/*{libraries}*/}
+				<div dangerouslySetInnerHTML={{__html: libraries}}></div>
 			</ul>
 		</div>
 	</div>

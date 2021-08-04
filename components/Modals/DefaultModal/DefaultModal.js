@@ -31,9 +31,9 @@ return (
 		</header>
 		<p className={styles.main}>
 			Lorem ipsum dolor sit amet, consectetur adipiscing 
-			elit.Mauris varius iaculis mauris, in lacinia purus 
-			congue porta.Nulla a semper mi, ac vehicula elit.Donec 
-			inia justo vitae libero viverra aliquet.Nam vitae semper 
+			elit. Mauris varius iaculis mauris, in lacinia purus 
+			congue porta. Nulla a semper mi, ac vehicula elit. Donec 
+			inia justo vitae libero viverra aliquet. Nam vitae semper 
 			ligula. Praesent volutpat purus et lectus elementum 
 			molestie. 
 		</p>		
